@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="src/main/webapp/views/logged/gteste.view.html" resourceType="JAVA" ruleDescription="grade1" ruleName="grade1" ruleSynchronous="false" ruleTimeout="300" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="362.9" scrolly="-181.8" target="hVIqVkUL6b0Uy`,o*.^C"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-322" y="158">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">grade1</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="FDS:f5C`mN[at~3M9uQ[" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=":zjfbhX%Ca5[BeQV?;]3" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=".oi]U(vGV!_1w/SMGkx!" multilayer="false" namespace="cronapi.screen.Operations.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.JSON" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Json%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.Operations.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.Operations.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.screen.Operations.getValueOfField}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Campo"/>
+            </mutation>
+            <value name="ARG0">
+              <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="x/ur,%Q;KA^K/LT=AwZ$" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                <field name="SELECT">vars.grid4953</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="DSmwCXr;R4|gi@G;wMx:" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join" x="83" y="158">
+    <mutation items="2"/>
+    <value name="ADD0">
+      <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="AQOpTqvu[`W-jXAcjn/e" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">s: </field>
+      </block>
+    </value>
+  </block>
+  <block colour="#fca03b" id="hVIqVkUL6b0Uy`,o*.^C" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-262" y="203">
+    <mutation>
+      <arg name="chaves"/>
+    </mutation>
+    <field name="NAME">cabGrade</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="hVIqVkUL6b0Uy`,o*.^C" id="^?y~ApTt$`LscLv3mf0t" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="hVIqVkUL6b0Uy`,o*.^C" id="x~ltGo)!_LYb|^r8wtKk" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block colour="#0088ee" dependencyby="hVIqVkUL6b0Uy`,o*.^C" id="yAT{_)R8igFU%I6m!X,:" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field name="VAR">chaves</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
